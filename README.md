@@ -1,5 +1,5 @@
 # angular-burguer
-:hamburger: Trying to learn Angular 2 with burgers :hamburger:
+:hamburger: Trying to learn Angular2 with burgers :hamburger:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
