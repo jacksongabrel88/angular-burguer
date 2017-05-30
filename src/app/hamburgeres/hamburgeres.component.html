@@ -1,0 +1,26 @@
+<div class="page-header">
+  <h3>Escolha seu hamburguer</h3>
+</div>
+<div class="row">
+  <div class="col-sm-6 col-md-4" *ngFor="let hamburguer of hamburgeres">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>{{ hamburguer.nome }}</h3>
+        <p>
+          {{ hamburguer.descricao }}
+        </p>
+        <div class="well">
+          <p>Ingredientes</p>
+          <ul>
+            <li *ngFor="let ingrediente of hamburguer.ingredientes">
+              {{ ingrediente }}
+            </li>
+          </ul>
+        </div>
+        <p>
+          <a href="#" class="btn btn-primary" role="button">Quero</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

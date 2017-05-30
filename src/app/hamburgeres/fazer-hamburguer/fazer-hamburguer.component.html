@@ -1,0 +1,46 @@
+<div class="page-header">
+  <h3>Monte seu Hamburguer</h3>
+</div>
+<div class="container">
+  
+</div>
+<form id="form-fazer-hamburguer"> 
+    <div class="form-group">
+      <label for="nome_hamburguer">Nome do Hamburguer</label>
+      <input type="text" [(ngModel)]="nome_hamburguer" name="nome_hamburguer" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="descricao_hamburguer">Descrição do Hamburguer</label>
+      <textarea class="form-control" rows="3" [(ngModel)]="descricao_hamburguer" name="descricao_hamburguer" ></textarea>
+    </div>
+    <div class="form-group">
+      <label for="ingredientes_hamburguer">Ingredientes</label>
+      <input type="text" class="form-control" id="ingredientes_hamburguer">
+    </div>
+  <button type="submit" class="btn btn-default" id="salvar-hamburguer">Salvar</button>
+</form>
+
+<br><br>
+
+<div class="preview">
+  <h4>Preview</h4>
+  <div class="col-md-12">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3> {{ nome_hamburguer }} </h3>
+        <p>
+          {{ descricao_hamburguer }}
+        </p>
+        <div class="well">
+          <p>Ingredientes</p>
+          <ul>
+            <li>
+              INGREDIENTES
+              colocar os infe
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
