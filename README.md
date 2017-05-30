@@ -1,4 +1,5 @@
-# ProjetoAngular
+# angular-burguer
+:hamburger: Trying to learn Angular 2 with burgueres~ :hamburger:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
