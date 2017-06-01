@@ -1,7 +1,7 @@
 <div class="page-header">
   <h3>Escolha seu hamburguer</h3>
 </div>
-<div class="row">
+<div class="row" id="boxes-hamburgueres">
   <div class="col-sm-6 col-md-4" *ngFor="let hamburguer of hamburgeres">
     <div class="thumbnail">
       <div class="caption">
@@ -18,7 +18,7 @@
           </ul>
         </div>
         <p>
-          <a href="#" class="btn btn-primary" role="button">Quero</a>
+          <a href="#" class="btn btn-primary" role="button" (click)="botaoQuero()" >Quero</a>
         </p>
       </div>
     </div>

@@ -9,12 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HamburgeresComponent implements OnInit {
 
-  tituloSecao: string = "";
+  tituloSecao: string = '';
 
   hamburgeres;
 
+  botaoQuero(){
+    alert('Parabéns, mas querer não é poder!');
+  }
+
   constructor( private hamburgeresService: HamburgeresService ) {
-    this.tituloSecao = "Escolha seu hamburger";
+    this.tituloSecao = 'Escolha seu hamburger';
 
     this.hamburgeres = this.hamburgeresService.getHamburgeres();
 
