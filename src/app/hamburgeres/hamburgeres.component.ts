@@ -9,11 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HamburgeresComponent implements OnInit {
 
-  tituloSecao: string = '';
+  tituloSecao = '';
 
   hamburgeres;
 
-  botaoQuero(){
+  botaoQuero() {
     alert('Parabéns, mas querer não é poder!');
   }
 
