@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FazerHamburguerComponent implements OnInit {
 
-  salvarHamburguer($nome, $descricao, $ingredientes) {
+  salvarHamburguer ($nome, $descricao, $ingredientes) {
     const boxes_hamburgueres = document.getElementById('boxes-hamburgueres');
 
     const htmllista = this.separaIngredientes($ingredientes);
